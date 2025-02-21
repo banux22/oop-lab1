@@ -1,7 +1,7 @@
 #include <iostream>
 
-extern double add(double lhs double rhs)
-extern double subtract(double lhs double rhs)
+extern double add(double lhs, double rhs);
+extern double subtract(double lhs, double rhs);
 
 int main() {
     double a, b
@@ -14,6 +14,7 @@ int main() {
 
     std::cout << "Сумма: " << sum << std::endl;
     std::cout << "Разность: " << difference << std::endl;
+    std::cout << "conflict";
 
     return 0;
 }
